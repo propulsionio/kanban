@@ -16,15 +16,15 @@ Built with Ruby on Rails on the backend as a JSON API for Backbone.js on the fro
 
 System Requirements
 -------------------
-set up docker
-set up fig
-set up boot2docker
+* set up docker
+* set up fig
+* set up boot2docker
 
 Deployment
 ----------
-fig build
-fig run web bash -l -c 'rake db:setup'
-fig up
+* fig build
+* fig run web bash -l -c 'rake db:setup'
+* fig up
 
 Notes
 -----
