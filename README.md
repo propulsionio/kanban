@@ -22,9 +22,12 @@ System Requirements
 
 Deployment
 ----------
-* > fig build
-* > fig run web bash -l -c 'rake db:setup'
-* > fig up
+* 
+ > fig build
+* 
+ > fig run web bash -l -c 'rake db:setup'
+* 
+ > fig up
 
 Test
 ----
