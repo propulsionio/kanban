@@ -22,15 +22,11 @@ group :development do
   gem 'annotate'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'debugger'
+  gem 'byebug'
   gem 'meta_request'
   gem 'pry-rails'
   gem 'rails-erd'
   gem 'seed_dump'
-end
-
-group :development, :test do
-  gem 'sqlite3'
 end
 
 group :production, :staging do

@@ -14,6 +14,18 @@ Kanban is a work-in-progress Trello clone I developed for a final project at [Ap
 
 Built with Ruby on Rails on the backend as a JSON API for Backbone.js on the frontend.
 
+System Requirements
+-------------------
+set up docker
+set up fig
+set up boot2docker
+
+Deployment
+----------
+fig build
+fig run web bash -l -c 'rake db:setup'
+fig up
+
 Notes
 -----
 * Hand-rolled Rails user authentication with BCrypt
@@ -28,3 +40,4 @@ Kanban is released under the [MIT License](/LICENSE).
 
 ---
 Developed by [Sean Omlor](http://seanomlor.com)
+Dockerized by [Zeke Dean](http://zeke-dean.com)
