@@ -37,6 +37,7 @@ Notes
 * Backbone models/collections with [Backbone-relational.js](http://backbonerelational.org/)
 * Auto-updating comment timestamps with jQuery [timeago](http://timeago.yarp.com)
 * Editable board, list and card titles with jQuery [JEditable](http://www.appelsiini.net/projects/jeditable)
+* Setting up a [Ruby on Rails Docker Application](http://thejspr.com/blog/ruby-rails-on-docker-with-fig-and-postgresql/)
 
 License
 -------
