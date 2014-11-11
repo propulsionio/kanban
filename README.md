@@ -16,15 +16,19 @@ Built with Ruby on Rails on the backend as a JSON API for Backbone.js on the fro
 
 System Requirements
 -------------------
-* set up docker
-* set up fig
-* set up boot2docker
+* set up [docker](https://docker.com/)
+** set up [boot2docker](http://boot2docker.io/) if mac or linux
+* set up [fig](http://www.fig.sh/)
 
 Deployment
 ----------
-* fig build
-* fig run web bash -l -c 'rake db:setup'
-* fig up
+> fig build
+> fig run web bash -l -c 'rake db:setup'
+> fig up
+
+Test
+----
+Point Browser to http://localhost:3000 for linux host or http://192.168.59.103:3000/ for mac or windows
 
 Notes
 -----
