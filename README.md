@@ -17,7 +17,7 @@ Built with Ruby on Rails on the backend as a JSON API for Backbone.js on the fro
 System Requirements
 -------------------
 * set up [docker](https://docker.com/)
-** set up [boot2docker](http://boot2docker.io/) if mac or linux
+	* set up [boot2docker](http://boot2docker.io/) if mac or linux
 * set up [fig](http://www.fig.sh/)
 
 Deployment
